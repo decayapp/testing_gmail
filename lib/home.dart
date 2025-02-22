@@ -21,7 +21,8 @@ class _HomeState extends State<Home> {
       message.from = userEmail;
       message.recipients.add(userEmail);
 
-      var smtpServer = gmail(userEmail, 'app_password');
+      var smtpServer = gmail(userEmail, 'app_password');   //use app password from gmail
+      
       
       send(message, smtpServer);
       print('sent');
