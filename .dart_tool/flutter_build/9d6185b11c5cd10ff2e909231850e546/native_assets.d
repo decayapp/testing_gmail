@@ -1,0 +1,1 @@
+ D:\\flutter\ projects\\testingmail\\.dart_tool\\flutter_build\\9d6185b11c5cd10ff2e909231850e546\\native_assets.yaml: 
