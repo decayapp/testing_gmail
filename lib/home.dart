@@ -21,8 +21,8 @@ class _HomeState extends State<Home> {
       message.from = userEmail;
       message.recipients.add(userEmail);
 
-      var smtpServer = gmail(userEmail, 'hozqxskhokcjjxjm');
-      //////var smtpServer = gmailSaslXoauth2(userEmail, 'hozqxskhokcjjxjm');
+      var smtpServer = gmail(userEmail, 'app_password');
+      
       send(message, smtpServer);
       print('sent');
     } catch (e) {
