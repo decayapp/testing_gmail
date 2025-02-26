@@ -50,6 +50,7 @@ class _HomeState extends State<Home> {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Mail  from  flutter'),
+          backgroundColor: Colors.amber,
           centerTitle: true,
         ),
         body: Container(
