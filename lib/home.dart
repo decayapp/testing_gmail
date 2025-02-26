@@ -49,7 +49,7 @@ class _HomeState extends State<Home> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.pink,
+          backgroundColor: Colors.amber,
           title: const Text('Mail  from  flutter'),
           centerTitle: true,
         ),
